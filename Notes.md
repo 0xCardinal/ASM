@@ -14,3 +14,16 @@
     > stringLength equ $ - string
 
 * equ = equals
+
+* db - define byte
+
+* Variables
+    > Byte : 8 bits  -- if the complete 8 bits are not occupied then the free space is filled with 0x0
+    > Word : 16 bits
+    > Double Word : 32 bits
+    > Quad Word : 64 bits
+    > Double Quad Word : 128 bits
+
+* 0x0a is used after variables for a new line
+
+* While creating the object file and loading the files, we write elf_i386 - this is for x86 architecure
