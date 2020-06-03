@@ -35,6 +35,6 @@ _start:
     definebyte2: db "Language", 0x0a
     byte2L equ $-definebyte2
 
-    defineword: dw "Too much writing", 0x0a
+    defineword: dw "Too much typing...", 0x0a
     wordL equ $-defineword
 
