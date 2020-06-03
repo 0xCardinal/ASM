@@ -1,7 +1,7 @@
 # ASM
 Learning Course: Assembly Programming in Linux
 
-# Exec Instructions
+### Exec Instructions
 `nasm -f elf filename.asm`
 |
 --filename.o
