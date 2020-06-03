@@ -1,5 +1,5 @@
 # ignore all .o and exec file
 
 *.o
-exec
+exec*
 *.swp
