@@ -27,3 +27,16 @@
 * 0x0a is used after variables for a new line
 
 * While creating the object file and loading the files, we write elf_i386 - this is for x86 architecure
+
+* if `ret` is not used inside of the function, so when the function executes completely, it will start executing the commands sequentially.
+
+* Prologue 
+    > mov esp,ebp
+    > pop ebp
+
+    can also be written as 
+    > leave ; nasm function that executes the above prologue commands 
+
+* > push/pop<ad> - pushes or pops all the register contents onto the stack
+  > push/pop<fd> - pushes or pops all the CPU flags onto the stack
+
