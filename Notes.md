@@ -11,6 +11,6 @@
 * string_length is required as the buffer length
 
 * shortcut method to calculate string length
-> stringLength equ $ - string
+    > stringLength equ $ - string
 
 * equ = equals
