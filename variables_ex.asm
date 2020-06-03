@@ -13,12 +13,10 @@ _start:
     mov edx, byte1L
     int 0x80
 
-    mov eax, 0x4
     mov ecx, definebyte2
     mov edx, byte2L
     int 0x80
 
-    mov eax, 0x4
     mov ecx, defineword
     mov edx, wordL
     int 0x80
