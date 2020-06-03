@@ -18,11 +18,11 @@
 * db - define byte
 
 * Variables
-    > Byte : 8 bits  -- if the complete 8 bits are not occupied then the free space is filled with 0x0
-    > Word : 16 bits
-    > Double Word : 32 bits
-    > Quad Word : 64 bits
-    > Double Quad Word : 128 bits
+    > Byte : 8 bits  -- if the complete 8 bits are not occupied then the free space is filled with 0x0 <br>
+    > Word : 16 bits <br>
+    > Double Word : 32 bits <br>
+    > Quad Word : 64 bits <br>
+    > Double Quad Word : 128 bits <br>
 
 * 0x0a is used after variables for a new line
 
@@ -31,12 +31,12 @@
 * if `ret` is not used inside of the function, so when the function executes completely, it will start executing the commands sequentially.
 
 * Prologue 
-    > mov esp,ebp
-    > pop ebp
+    > mov esp,ebp <br>
+    > pop ebp <br><br>
 
-    can also be written as 
-    > leave ; nasm function that executes the above prologue commands 
+    can also be written as <br>
+    > leave ; nasm function that executes the above prologue commands <br>
 
-* > push/pop<ad> - pushes or pops all the register contents onto the stack
-  > push/pop<fd> - pushes or pops all the CPU flags onto the stack
+* > push/pop<ad> - pushes or pops all the register contents onto the stack <br>
+  > push/pop<fd> - pushes or pops all the CPU flags onto the stack <br>
 
