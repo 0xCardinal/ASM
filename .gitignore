@@ -1,0 +1,5 @@
+# ignore all .o and exec file
+
+*.o
+exec
+*.swp
