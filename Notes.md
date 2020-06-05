@@ -40,3 +40,12 @@
 * > push/pop<ad> - pushes or pops all the register contents onto the stack <br>
   > push/pop<fd> - pushes or pops all the CPU flags onto the stack <br>
 
+* `stc` - set the carry flag
+* `clc` - clear the carry flag
+* `cmc` - complement the carry flag
+
+* If the arithemetic operations generate carry, we have to set the carry using any three commands from above. (refer `./Arithemetic/arith_carry.asm`) 
+
+* For `gdb_crash_course` refer `./Arithemetic/gdb_crash_course`
+
+* We use `adc` to add some data and have the carry flag along and `sbb` to subtract carry with data
