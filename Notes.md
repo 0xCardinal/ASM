@@ -49,4 +49,3 @@
 * For `gdb_crash_course` refer `./Arithemetic/gdb_crash_course`
 
 * We use `adc` to add some data and have the carry flag along and `sbb` to subtract carry with data
-
