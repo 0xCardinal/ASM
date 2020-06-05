@@ -49,3 +49,6 @@
 * For `gdb_crash_course` refer `./Arithemetic/gdb_crash_course`
 
 * We use `adc` to add some data and have the carry flag along and `sbb` to subtract carry with data
+
+* **Loop** - when nasm command `loop x` is used what it does is, it check for the ZF(Zero Flag), if it is set or unset. If it is set, the execution will continue and followwing commands will get executed. If the ZF is unset it will send the pointer to the function(x) and keep on executing till ZF is set.
+    > Refer `loops.asm`
