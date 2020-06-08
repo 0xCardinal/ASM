@@ -52,3 +52,7 @@
 
 * **Loop** - when nasm command `loop x` is used what it does is, it check for the ZF(Zero Flag), if it is set or unset. If it is set, the execution will continue and followwing commands will get executed. If the ZF is unset it will send the pointer to the function(x) and keep on executing till ZF is set.
     > Refer `loops.asm`
+
+* `jmp & jnz` - two of many flags.
+    > `jmp` - jumps to mem. addr. or label
+    > `jnz` - jump no zero, jumps when the value of counter register(ecx) is not zero 
