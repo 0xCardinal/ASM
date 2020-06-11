@@ -62,7 +62,8 @@
 * resb = reserve bits for the buffer
 * For knowing about the sys calls refer the table above, and  to know the parameters perform `man 2 <sys call name>`
 
-
+#### **Writing File**
+* When you over write a file (as File_Write.asm), not the complete data but only that much characters are occupied and rest are as it is. (See file_data.txt)
 
 
 

@@ -1,1 +1,2 @@
-This is stored in a file.
+Writing to file...
+ file.
