@@ -53,6 +53,16 @@
 * **Loop** - when nasm command `loop x` is used what it does is, it check for the ZF(Zero Flag), if it is set or unset. If it is set, the execution will continue and followwing commands will get executed. If the ZF is unset it will send the pointer to the function(x) and keep on executing till ZF is set.
     > Refer `loops.asm`
 
-* `jmp & jnz` - two of many flags(check others out as well).
-    > `jmp` - jumps to mem. addr. or label
-    > `jnz` - jump no zero, jumps when the value of counter register(ecx) is not zero 
+* `jmp & jnz` - two of many flags(check others out as well). <br>
+    > `jmp` - jumps to mem. addr. or label <br>
+    > `jnz` - jump no zero, jumps when the value of counter register(ecx) is not zero <br>
+
+#### **Reading Files**
+* The `.bss` section is a static memory section that contains buffers for data to be declared at runtime.
+* resb = reserve bits for the buffer
+* For knowing about the sys calls refer the table above, and  to know the parameters perform `man 2 <sys call name>`
+
+
+
+
+
